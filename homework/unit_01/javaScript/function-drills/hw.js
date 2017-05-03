@@ -74,9 +74,14 @@ var allGreaterThanTen = function(numsArray) {
 // Output: `true` if ALL words start with the letter 'a' (case-insensitive),
 //          `false` otherwise
 // Edge Case: If the array is empty, the function should return `true`.
-var allStartingWithA = function(words){
-  // Your Code Here
-};
+var wordsWithAtLeastFiveLetters = function(words) {
+  var results = [];
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].length >= 5) {
+      results.push(words[i]);
+    }
+  }
+  return results;
 
 // #6
 // Input: an array of words
