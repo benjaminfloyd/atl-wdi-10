@@ -14,7 +14,9 @@ var timerUI = {
     progressBar.style.width = (100 - timerValue) + '%';
   },
   drawLitFuses: function(timerValue){
-    // Your Code Here
+    var percentUnburnt = timerValue/100;
+    document.getElementsByClassName('unburnt')[0].style.width = percentUnburnt*98 + '%';
+    document.getElementsByClassName('burnt')[0].style.width = (1 - percentUnburnt)*98 + '%';
   },
   drawCrawlers: function(timerValue){
     // Your Code Here
