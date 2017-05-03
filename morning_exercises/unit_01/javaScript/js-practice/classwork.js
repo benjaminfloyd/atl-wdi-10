@@ -8,9 +8,9 @@
 // For each expression below, indicate whether it is 'truthy' or 'falsey'
 // by assigning the appropriate variable a value of either `true` or `false`.
 
-// 1. true || false 
+// 1. true || false
 var resOne;
-// Replace This Comment With Your Code
+true
 
 // 2. null || ''
 var resTwo;
