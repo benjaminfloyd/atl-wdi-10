@@ -25,6 +25,7 @@ const Stopwatch = {
   },
   start: function(){
     // Your Code Here
+
   },
   stop: function(){
     // Your Code Here
@@ -53,18 +54,28 @@ const ViewHelpers = {
 const AppController = {
   handleClockTick: function(){
     // Your Code Here
+  ViewEngine.updateTimeDisplay(Stopwatch.mins, Stopwatch.secs, Stopwatch.millisecs);
+
   },
   handleClickStart: function() {
-    // Your Code Here
+    if (!Stopwatch.isRunning) { Stopwatch.start();
   },
+
   handleClickStopReset: function(){
-    // Your Code Here
+    // Your Codes Here
+    Stopwatch.stop();
   },
   handleClickLap: function(){
     // Your Code Here
+    Stopwatch.lap();
   }
 };
 
 window.onload = function(){
   // Attach AppController methods to the DOM as event handlers here.
-};
+$('#start').click((AppController.handleClickStart));
+$('lap').click(AppController.handleClickLap);
+$('stop').click(AppController.handleClickStopReset)
+}
+
+
