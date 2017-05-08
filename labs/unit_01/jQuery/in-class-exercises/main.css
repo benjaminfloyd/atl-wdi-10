@@ -1,0 +1,22 @@
+.starwars-page {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  perspective: 500px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.starwars-intro {
+  top: 0%;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  font-size: 1.8em;
+  color: #e8be1e;
+  text-align: justify;
+  transform: rotateX(30deg) scale(2);
+}
