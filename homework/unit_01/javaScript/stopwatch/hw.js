@@ -63,7 +63,10 @@ const AppController = {
 
   handleClickStopReset: function(){
     // Your Codes Here
-    Stopwatch.stop();
+    if (Stopwatch.isRunning) {
+      Stopwatch.lap();
+      ViewEngine.updateLapListDisplay(Stopwatch.laps);
+    }
   },
   handleClickLap: function(){
     // Your Code Here
