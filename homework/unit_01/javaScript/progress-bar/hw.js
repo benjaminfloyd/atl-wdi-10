@@ -8,11 +8,12 @@ var timerUI = {
   var numericDisplay = document.getElementById('numeric-display');
   numericDisplay.innerHTML = timerValue;
 
+
   },
   drawProgressBars: function(timerValue){
-    var progressBar = document.getElementsByClassName('progress-bar')[0];
-    progressBar.style.width = (100 - timerValue) + '%';
-  },
+
+$('.progress-bar').css("width:" "+" (100 - timerValue) + '%' );
+},
   drawLitFuses: function(timerValue){
     var percentUnburnt = timerValue/100;
     document.getElementsByClassName('unburnt')[0].style.width = percentUnburnt*98 + '%';
