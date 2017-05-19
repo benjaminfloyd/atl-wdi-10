@@ -18,12 +18,15 @@ Post request is adding data to the host server.
 
 ### Question 3: What does `npm init` do?
 
+This will ask you a bunch of questions, and then write a package.json for you
+
 ### Question 4: What does CRUD stand for?  What are the HTTP verbs that are associated with each function?
 Create Read Update Delete
-Get    Post Put    Delete
+Post   Get  Put    Delete
 
 ### Question 5: If we have a form where we want to create new data, what type of `method` do we use in our form?  
-update/put
+Put/Update
+
 ### Question 6: If the following form was submitted, what would `action="myScript.js"` do?
 
 ```
@@ -32,11 +35,11 @@ update/put
   <button type="submit">Submit</button>
 </form>
 ```
-update/put a name to...
+Update/put a 'name' to...
 
 ### Question 7: Write an express route that handles a POST request to the url `/menus` and redirects to the `/homepage`
 
-app.post('/menus', function (req, res) {
+router.post('/menus', function (req, res) {
   res.redirect('/homepage');
 });
 
@@ -55,3 +58,7 @@ We have been using the MVC to view and control data in express apps.
 ## Bonus Question
 
 ### Question 10: Write an express route that handles a GET request to the url `/products` and sends back the JSON object {error: "Bad Request"}
+
+router.get('/products' function(req, res){
+  req.baseUrl?????
+}
