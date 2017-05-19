@@ -59,8 +59,8 @@ shipFuelCost(3, 12) => 6225.25
 
 #### The Pseudocode:
 ```
-- Find the distance of the earth circumference in miles
-- Calculate the # of gallons used to travel around the earth
+- Find the distance of the earth circumference in miles. 24,901mi
+- Calculate the # of gallons used to travel around the earth 24.9
   - circumference / MPG (miles per gallon)
 - Calculate the cost:
   - total gallons used * cost of fuel
