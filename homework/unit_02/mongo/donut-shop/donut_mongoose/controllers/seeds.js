@@ -2,6 +2,13 @@
 // REQUIREMENTS
 //======================
 //require express, mongoose, Donut schema, user
+
+var mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost/express-mongoose-lesson-starter');
+
+// var User = require('../models/user');
+// var Item = require('../models/item');
+
 var express = require("express");
 var router = express.Router();
 var mongoose = require("mongoose");
