@@ -19,8 +19,8 @@ emailApp
     - email
     - password
     -createAccount
-// js Objects
 
+// js Objects
 var emailApp = {
     providers : [{
         accounts: [{
@@ -42,19 +42,13 @@ var emailApp = {
                 unread: boolean
                 message: string
                 from: string
-
             }]
         }]
-
-
-    }]
-    
-    
+    }]   
 }
-Example
 
-var ExampleEmailApp = 
-= {
+// Example
+var ExampleEmailApp = {
     providers : [{
         accounts: [{
             createAccount:[{

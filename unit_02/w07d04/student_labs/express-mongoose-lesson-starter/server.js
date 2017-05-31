@@ -3,7 +3,11 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 
+// methodOverride
+var methodOverride = require('method-override’);
+app.use(methodOverride('_method'));
 
+// Body Parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

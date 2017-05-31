@@ -29,18 +29,13 @@ entities/abstractions (e.g. Senior Paws app, above) that the app might use, and 
 
 This app provides easy access to all your e-mail service providers in one app. The app will let you select one of your email addresses and view your e-mails for that address.
 
-```
-Write your answer here or in a separate js file.
-```
+ultra_email_app.js
 
 ### 2. Radio on the Internet app
 
 This app hosts a ton of radio stations, each featuring their own playlists of songs. The radio stations can be listed by genre or popularity.
 
-
-```
-Write your answer here or in a separate js file.
-```
+stationsapp.js
 
 ### 3. Rock Concert App
 

@@ -20,25 +20,30 @@ router.get('/', function(request, respond){
 })
 
 
-
 // USER SHOW ROUTE
 
+<<<<<<< HEAD
 
 
 // USER CREATE ROUTE
 
 
 
-// USER UPDATE ROUTE
+=======
+// USER CREATE ROUTE
 
+>>>>>>> 660449f22ebce44d381acf513f5876f1da0059f7
+// USER UPDATE ROUTE
 
 // USER DESTROY
 
-
 // ADD A NEW ITEM
 
+<<<<<<< HEAD
 
 // REMOVE AN ITEM $pull https://docs.mongodb.com/manual/reference/operator/update/pull/
-
+=======
+// REMOVE AN ITEM
+>>>>>>> 660449f22ebce44d381acf513f5876f1da0059f7
 
 module.exports = router;

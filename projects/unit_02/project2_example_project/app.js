@@ -2,14 +2,20 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
-// HBS
-var hbs = require('hbs')
-app.set('view engine', 'hbs')
+
+var hbs = require('hbs');
+app.set('view engine', 'hbs');
+
+var methodOverride = require('method-override');
+app.use(methodOverride('_method'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-var usersController = require("./controllers/usersController.js");
+var indexController = require("./routes/indexController.js");
+app.use('/', indexController);
+
+var usersController = require("./routes/usersController.js");
 app.use('/users', usersController);
 
 // Mongoose stuff

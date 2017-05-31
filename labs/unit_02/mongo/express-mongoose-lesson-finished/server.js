@@ -2,15 +2,17 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
-// HBS
-var hbs = require('hbs')
-app.set('view engine', 'hbs')
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 var usersController = require("./controllers/usersController.js");
 app.use('/users', usersController);
+
+app.get('/', function(req, res) {
+    res.send('hello!');
+});
 
 // Mongoose stuff
 var mongoose = require('mongoose');
