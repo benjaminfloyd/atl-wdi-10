@@ -10,7 +10,6 @@ angular
 // These are the dependencies that we inject into router setup function
 uiRouterSetup.$inject = ['$stateProvider', '$urlRouterProvider'];
 function uiRouterSetup($stateProvider, 
-
 // You define new states on the $stateProvider
 $urlRouterProvider) {
 	$stateProvider

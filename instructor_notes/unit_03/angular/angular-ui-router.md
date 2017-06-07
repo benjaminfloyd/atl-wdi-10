@@ -299,4 +299,8 @@ function MainRouter($stateProvider, $urlRouterProvider, $locationProvider) {
 }
 ```
 
+<<<<<<< HEAD
 Here we're setting html5mode to true and telling Angular we don't need to specify a base tag (`/`) in the head of our html. Read more about it [here](https://docs.angularjs.org/error/$location/nobase) -->
+=======
+Here we're setting html5mode to true and telling Angular we don't need to specify a base tag (`/`) in the head of our html. Read more about it [here](https://docs.angularjs.org/error/$location/nobase) -->
+>>>>>>> 954916ee73cd9f5e0a2a81ccb36ba74303f58d11
