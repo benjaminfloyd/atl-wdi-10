@@ -22,25 +22,25 @@ You may use the guide (or not, there are many ways to do this app). Check off ea
 ## Back End Setup
 ### Setting Up Your App
 
-- [ ] Create a folder called `budget_app`
+<!--- [ ] Create a folder called `budget_app`
 - [ ] In it, run `npm init` to create a `package.json` file
 - [ ] Set up a `server.js` file
 - [ ] Add a `controllers` folder
 - [ ] Add a `db` folder
 - [ ] Add a `models` folder
-- [ ] Add a `public` folder
+- [ ] Add a `public` folder-->
 
 ### Setting Up Your Server: `server.js`
 
-- [ ] Set up your requirements
+<!--- [ ] Set up your requirements
 - [ ] Set up middleware
 - [ ] Set up a listener to `port:3000`
 - [ ] Connect to `budget_app` in your mongo database
 - [ ] Declare and require 2 controllers: `/credits` and `/expenses`
-- [ ] Hook up your public folder
+- [ ] Hook up your public folder-->
 
 ### Setting Up Your Schemas
-
+<!--
 - [ ] In `db` create a `schema.js` file
 - [ ] Set up requirements in this file
 - [ ] Your first model `Credit` has 4 properties:   `note`, `total`, `created_at`, `updated_at` (What data types are these?)
@@ -51,14 +51,14 @@ You may use the guide (or not, there are many ways to do this app). Check off ea
 ### Setting Up Your Models
 
 - [ ] Create separate files for your `Credit` and `Expense` models
-- [ ] Require and export them.
+- [ ] Require and export them.-->
 
 ### Setting Up Your Back-end controllers
 
-- [ ] Create separate files for `credits.js` and `expenses.js`
+<!--- [ ] Create separate files for `credits.js` and `expenses.js`
 - [ ] In both, set up requirements, including Router, and `module.exports`
 - [ ] In both, create a GET "/" request that retrieves all records and send that data in the response
-- [ ] In both, create a POST "/" request that will create and save a new record to the database
+- [ ] In both, create a POST "/" request that will create and save a new record to the database-->
 
 ## Front End Setup
 ### Setting Up Your Public folder

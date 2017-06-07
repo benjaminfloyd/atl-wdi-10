@@ -70,7 +70,7 @@ Also, because services are persistent singletons, they provide a mechanism to sh
 
 ```javascript
 angular
-  .module("myApp", [])
+  .module("myApp")
   .service('myService');
   
   function myService() {
@@ -82,7 +82,7 @@ angular
   var self = this;
 
   self.sayHello = function(name) {
-    return `Hello ${name}!`;
+    return `Hello is it me your looking for ${name}!`;
   };
 });
 ```

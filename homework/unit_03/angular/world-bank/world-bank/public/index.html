@@ -5,11 +5,11 @@
   <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
-<body>
+<body ng-controller="WorldBankController as worldbankCtrl">
 
   <div id="container">
     <h1 id="header">World Bank Loan Records Finder</h1>
-    <p id="subheader">Number of records: <!-- Number of records --> </p>
+    <p id="subheader">Number of records: {{worldbankCtrl.wbinfo}} </p>
 
     <div id="left">
       <!-- Example HTML -->
