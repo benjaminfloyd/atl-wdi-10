@@ -3,9 +3,6 @@ var router = express.Router();
 var methodOverride = require('method-override') 
 var Quote = require('../../models/quote.js');
 
-
-
-
 // GET
 router.get('/', function(request, response) {
   Quote.find(function(error, quotes) {
@@ -39,7 +36,7 @@ router.post('/', function(request, response) {
   });
 });
 
-// GET
+// GET by ID
 router.get('/:id', function(request, response) {
   var id = request.params.id;
 
@@ -47,7 +44,9 @@ router.get('/:id', function(request, response) {
     if(error) response.json({message: 'Could not find quote b/c:' + error});
 
     response.json({quote: quote});
-  }).select('-__v');
+  })
+  
+  .select('-__v');
 });
 
 router.patch('/:id', function(request, response) {
