@@ -12,10 +12,15 @@ function uiRouterSetup($stateProvider, $urlRouterProvider) {
 		.state('home', {
 			url: '/', // telling the browser where to go
 			template: '<home></home>' // calling the component that we have created
-		})
+	})
+   
+.state('quotes', {
+	url: '/quotes',
+	template: '<h1>Ouotes</h1><a ui-sref="quotes">Quotes</a>'
+})
 
-    $urlRouterProvider.otherwise('/');
-}
+.state()
 
-// Set up your UI Router HERE
+
+ $urlRouterProvider.otherwise('/');
 
