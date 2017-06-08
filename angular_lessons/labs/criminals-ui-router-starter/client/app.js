@@ -41,9 +41,13 @@ $urlRouterProvider) {
 			template: '<criminals-show></criminals-show>'
 		});
 
+<<<<<<< HEAD
 		 // Catch-all route
   // Will forward all non-existing router calls
   // to '/'
 
+=======
+	// default state
+>>>>>>> 9cc7d65c9018b274e774f628b23a8e539134c1d3
 	$urlRouterProvider.otherwise('/');
 }
