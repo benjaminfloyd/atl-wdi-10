@@ -29,6 +29,38 @@ competencies: Programming
 
 ## Intro (15 mins)
 
+## What is OOP?
+
+Ruby is an object-oriented language. That means it's based on the idea that you'll build your application with objects in mind.
+
+As you learned earlier in the class, an object is a collection of related attributes (properties) and methods (behavior). You can think of an object as a little machine: it has displays you can read and buttons you can push.
+
+When you write an object-oriented application, the idea is that you write the blueprints for these machines, and then you write a sequence of events your users can initiate in which these machines interact with each other.
+
+Much of the code you see today will be very similar to what you encountered when reviewing OOP in the past. That's because classes are a concept that have been around for decades! Use this pre-existing knowledge to your advantage in today's class!
+
+
+## OOP Design
+We've talked quite a bit about object oriented programming as a paradigm, but we haven't talked much about how to break a problem down into object components.
+
+Example: Monopoly 
+> "Monopoly is a game where players try to accumulate wealth through property ownership and money"
+* Game Board
+* Players
+* Game Tokens
+* Property Cards
+* Money
+
+Spend 10 minutes working with a partner to come up with at least three types of objects that you might define when creating the following examples. We'll go over your answers as a class.
+
+* Amazon
+* A Homework Grading App
+* An Attendance Taking App
+* Lyft
+
+> A helpful approach might be to take the "nouns" involved in the application and say they are objects.
+
+<!--WIP-->
 ## Structure of a Class
 
 What were the key components of a constructor function in javascript?
@@ -92,7 +124,7 @@ class BananaStand
     "yellow"
   end
   def opened_in
-    2015
+    2003
   end
   def manager
     "George Michael"
@@ -192,7 +224,7 @@ class BananaStand
 
 end
 
-new_stand = BananaStand.new('red', 2015, 'Colin', -500)
+new_stand = BananaStand.new('red', 2017, 'Jamie', -500)
 ```
 
 The `initialize` method is called immediately right after `.new` is called on a class.
@@ -207,7 +239,7 @@ var BananaStand = function(color, openedIn, manager, money) {
   this.money = money;
 }
 
-var myStand = new BananaStand('Zebra stripes', 2015, 'Colin\'s Evil Twin', 500)
+var myStand = new BananaStand('Zebra stripes', 2017, 'Jamie\'s Evil Twin', 500)
 ```
 
 Back to Ruby for a second:
@@ -225,7 +257,7 @@ class BananaStand
 
 end
 
-new_stand = BananaStand.new('red', 2015, 'Colin', -500)
+new_stand = BananaStand.new('red', 2017, 'Jamie', -500)
 ```
 
 # Instance variables and methods
