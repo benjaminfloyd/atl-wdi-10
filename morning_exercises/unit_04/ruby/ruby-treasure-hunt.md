@@ -26,9 +26,7 @@ Ready.... Set..... Go!!!
 
 1.   What method would turn "marc" into "cram"?
 
-  ```
-  your answer here
-  ```
+"marc".reverse   #=> "cram"
 
 2.   What method could you use that returns a boolean to check if "pickle" includes the substring "ick"?
 
