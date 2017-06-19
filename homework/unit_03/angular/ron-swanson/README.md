@@ -45,12 +45,12 @@ Here is the [gist](https://gist.github.com/dphurley/f94813ab20e7baf8b325867a6f11
 
 You will be writing your code in:
 
-### Server-side Routes
+<!--### Server-side Routes
 
 - `/server/routes/quotes.js`  
     - This is where you will write your CRUD routes for the quotes state 
 - `/server/routes/netflix.js`  
-    - This is where you will write your CRUD routes for the Netflix and quotes state- with express + ajax
+    - This is where you will write your CRUD routes for the Netflix and quotes state- with express + ajax-->
 
 ### Front-end Scripts 
 - `/client` folder

@@ -1,4 +1,4 @@
-<!--const angular = require('angular');
+const angular = require('angular');
 require('angular-ui-router');
 
 angular
@@ -12,7 +12,7 @@ function uiRouterSetup($stateProvider, $urlRouterProvider) {
 		.state('homePage', {
 			url: '/', // telling the browser where to go
 			template: '<home></home>' // calling the component that we have created
-		})-->
+		})
 		.state('about', {
 			url: '/about',
 			// template: '<about></about>' // LAB Goal #1 -- get this line to work
