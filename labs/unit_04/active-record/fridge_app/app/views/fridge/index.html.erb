@@ -1,0 +1,13 @@
+<h1>Fridge Management App</h1>
+<p>What's in the fridge?</p>
+<% @fridges.each do |fridge| %>
+    <ul>
+        <li>Location: <%= fridge.location %></li>
+        <li>Brand: <%= fridge.brand %> </li>
+        <li>Size: <%= fridge.size %> </li>
+    </ul>
+<% end %>
+
+
+
+
