@@ -116,19 +116,15 @@ Please answer the following questions in the spaces provided.
 
 3.  What does an exclamation point at the end of a method name usually signify?
 
-  ```text
-    Your answer here:
-  ```
+! indicate that the method will modify the object it's called on
 
 4.  What does a question mark and the end of a method name usually signify?
 
   boolean value?
 
 5.  How do you define a method in Ruby? Give a simple example.
-
-  ```ruby
-    # your answer here
-  ```
+def _____
+end
 
 6.  How do you create a class in Ruby? Give a simple example.
  class _____
